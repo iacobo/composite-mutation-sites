@@ -2,7 +2,6 @@ name: env-gene
 
 channels:
   - conda-forge
-  - pytorch
 
 dependencies:
   - python=3.9
@@ -16,9 +15,6 @@ dependencies:
   # Plotting
   - matplotlib
 
-  # Coalescent theory libs
-  - msprime
-
   # Jupyter Environment
   - papermill
   - autopep8
@@ -29,5 +25,6 @@ dependencies:
   - nbclean
   - nbresuse
 
-  # pip requirements for git hosted package
-  #- pip:
+  # pip requirements for Coalescent theory libs
+  - pip:
+      - msprime
