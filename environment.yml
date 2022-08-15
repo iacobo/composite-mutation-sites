@@ -1,0 +1,32 @@
+name: env-gene
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.9
+  - pip
+
+  # Core scientific python
+  - numpy
+  - pandas
+
+  # Plotting
+  - matplotlib
+
+  # Coalescent theory libs
+  - msprime
+
+  # Jupyter Environment
+  - papermill
+  - autopep8
+  - jupyterlab
+  - notebook
+  - ipython
+  - jupyter_contrib_nbextensions
+  - nbclean
+  - nbresuse
+
+  # pip requirements for git hosted package
+  #- pip:
